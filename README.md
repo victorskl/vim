@@ -8,8 +8,11 @@ A customization for VIM editor for a Programmer especially those who code in Pyt
 git clone https://github.com/victorskl/vim.git 
 cd vim
 git archive master -o vim.zip
-unzip -v vim.zip -d ~
-ls -al ~
+unzip vim.zip -d ~
 ```
+
+You can see the action right away by `vi .vimrc` and, customizing it more or, `:q!` and start coding! 
+
 ### Further customization
-The archive zip contains `.vim` directory and `.vimrc` file. These two artifacts are the key distribution artifact. You may wish to fork this repo, add more plugins into `.vim` folder, update `.vimrc` accordingly and then follow `How to use` steps.
+
+The `git archive` zip contains `.vim` directory and `.vimrc` file. These two artifacts are the key distribution. You may wish to fork this repo, add more plugins into `.vim` folder, update `.vimrc` accordingly and then follow `How to use` steps.
