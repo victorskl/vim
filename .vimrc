@@ -13,7 +13,7 @@
 :nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 :filetype plugin indent on
 :autocmd FileType python set complete+=k~/.vim/syntax/python.vim isk+=.,(
-:colorscheme delek
+:colorscheme aqua
 
 " Press Space to turn off highlighting and clear any message already displayed.
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
