@@ -1,1 +1,5 @@
-
+.idea
+*.iml
+*.swp
+*.zip
+*.tar.gz
