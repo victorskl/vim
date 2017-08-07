@@ -1,6 +1,6 @@
 # VIM for Programmer
 
-A customization for VIM editor for a Programmer especially those who code in Python, Haskell, Bash and the like.
+VIM editor customization for a Programmer especially those who code in Python, Haskell, Bash and the like.
  
 ### How to use
  
@@ -9,6 +9,7 @@ git clone https://github.com/victorskl/vim.git
 cd vim
 git archive master -o vim.zip
 unzip vim.zip -d ~
+cd ~
 ```
 
 You can see the action right away by `vi .vimrc` and, customizing it more or, `:q!` and start coding at this point. 
@@ -40,7 +41,7 @@ torte.vim
 zellner.vim
 ```
 
-In this case, you can demo on how the color scheme look and feel by open up some file and try `:colorscheme blue` to find out about your liking. Once you found the color scheme you like, just persist it by updating in `.vimrc` file. For example:
+In this case, you can demo on how the color scheme look and feel by open up some file and try `:colorscheme blue` to find out about your liking. For example:
 
 ```
 vi .vimrc
@@ -49,6 +50,8 @@ vi .vimrc
 (enter)
 (then repeat to next color scheme until the one that you like is found)
 ```
+
+Once you found the color scheme you like, just persist it by updating in `.vimrc` file.
 
 ### Further customization
 
